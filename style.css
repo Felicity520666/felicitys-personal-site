@@ -1,11 +1,48 @@
+:root {
+    --main-color: #caf9e1;
+    --text-color: #966565;
+}
 img {
     width: 500px;
+    max-width: 100%;
+    height: auto;
 }
 
 body {
     text-align: center;
     font-family: fantasy;
-    background: #caf9e1;
-    color: #966565;
+    background: var(--main-color);
+    color: var(--text-color);
 
+}
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+.fade-in {
+    animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+.button-row {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
 }
