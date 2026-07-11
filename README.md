@@ -29,4 +29,4 @@ This is my personal website. It is a simple but fun site where visitors can lear
 
 ## Feedback
 
-If you have any feedback, feel free to reach out.
+If you have any feedback or suggestions, feel free to reach out to me! Thank you for visiting my personal website. I hope you enjoyed it and learned a little about me.
